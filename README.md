@@ -8,7 +8,7 @@ git add .
 git status
 git commit -m "add:first commit"
 git branch -M <teamname>
-git remote add origin https://github.com/caf112/Start-Up-Carrier.git
+git remote add origin https://github.com/caf112/Start-Up-Career.git
 git push -u　origin <teamname>
 ```
 ```
