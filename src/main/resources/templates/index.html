@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TodoApp</title>
+</head>
+<body>
+	<h1>TodoList</h1>
+	<p 	th:each="todo : ${todos}" th:text="${todo.title}" />
+</body>
+</html>
