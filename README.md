@@ -19,7 +19,7 @@ git status
 git commit -m "modify:変更内容を記述"
 git push
 ```
-### チームの代表者一名が
+### 最終発表後チームの代表者一名が
 ```
 git remote -v
 git branch -M <teamname>
