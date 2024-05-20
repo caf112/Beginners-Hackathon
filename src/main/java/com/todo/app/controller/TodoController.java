@@ -17,8 +17,29 @@ public class TodoController {
 
     @RequestMapping(value="/")
     public String index(Model model) {
-        List<Todo> list = todoMapper.selectAll();
+//        List<Todo> list = todoMapper.selectAll();
+    	List<Todo> list = todoMapper.selectIncomplete();
+    	List<Todo> doneList = todoMapper.selectComplete();
         model.addAttribute("todos",list);
+        model.addAttribute("doneTodos",doneList);
         return "index";
+    }
+    
+    @RequestMapping(value="/add")
+    public String add(Todo todo) {
+        todoMapper.add(todo);
+        return "redirect:/";
+    }
+    
+    @RequestMapping(value="/update")
+    public String update(Todo todo) {
+        todoMapper.update(todo);
+        return "redirect:/";
+    }
+    
+    @RequestMapping(value="/delete")
+    public String delete() {
+        todoMapper.delete();
+        return "redirect:/";
     }
 }
