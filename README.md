@@ -23,7 +23,7 @@ git push
 ```
 git remote -v
 git branch -M <teamname>
-git remote set-url origin https://github.com/caf112/Beginners- Hackathon.git
+git remote set-url origin https://github.com/caf112/Beginners-Hackathon.git
 git remote -v
 git push -u　origin <teamname>
 ```
