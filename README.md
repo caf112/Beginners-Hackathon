@@ -1,8 +1,7 @@
 # git commands
 ## 初回
-```
-git init
-git status
+`git init`
+`git status`
 git add .
 git status
 git commit -m "add:first commit"
