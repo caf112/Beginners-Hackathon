@@ -1,4 +1,4 @@
-# Start-Up-Carrier
+# Beginners-Hackathon
 ## git commands
 ### 初回
 ```
@@ -19,7 +19,7 @@ git status
 git commit -m "modify:変更内容を記述"
 git push
 ```
-### 最終発表後チームの代表者一名が
+# 最終発表後
 ```
 git remote -v
 git branch -M <teamname>
