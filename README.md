@@ -1,13 +1,13 @@
 # git commands
 ## 初回
-```git init```
-```git status```
-```git add .```
-```git status```
-```git commit -m "add:first commit"```
-```git branch -M main```
-```git remote add origin {url}```
-```git push -u　origin main```
+```git init```<br>
+```git status```<br>
+```git add .```<br>
+```git status```<br>
+```git commit -m "add:first commit"```<br>
+```git branch -M main```<br>
+```git remote add origin {url}```<br>
+```git push -u　origin main```<br>
 ## ２回目以降
 ```git status```
 ```git add .```
