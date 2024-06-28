@@ -1,6 +1,5 @@
-# Beginners-Hackathon
-## git commands
-### 初回
+# git commands
+## 初回
 ```
 git init
 git status
@@ -11,7 +10,7 @@ git branch -M main
 git remote add origin {url}
 git push -u　origin main
 ```
-### ２回目以降
+## ２回目以降
 ```
 git status
 git add .
@@ -19,7 +18,7 @@ git status
 git commit -m "modify:変更内容を記述"
 git push
 ```
-# 最終発表後
+## 最終発表後
 ```
 git remote -v
 git branch -M <teamname>
