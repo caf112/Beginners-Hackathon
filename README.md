@@ -18,6 +18,7 @@ git commit -m "add:first commit"
 ```
 git branch -M main
 ```
+{url}には、自分のリポジトリのHTTPSを入力。（{}はいらないです。）
 ```
 git remote add origin {url}
 ```
